@@ -1,32 +1,27 @@
 name: Database Generation
-
 on:
   push:
     branches:
-    - main
+      - main
     paths:
-    - 'x86_64/**'
+      - 'x86_64/**'
   pull_request:
     paths:
-    - 'x86_64/**'
+      - 'x86_64/**'
   workflow_dispatch:
-
 env:
   GITHUB_USERNAME: Dakkshesh
   GITHUB_EMAIL: dakkshesh5@gmail.com
   GHUB_TOKEN: ${{ secrets.GHUB_TOKEN }}
   GPG_SIGNING_KEY: ${{ secrets.GPG_SIGNING_KEY }}
-
 jobs:
   dbgen:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/neutron-toolchains/docker-image:arch-neutron
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
       - name: Configuring git
         run: |
           git config --global user.name $GITHUB_USERNAME
@@ -37,7 +32,6 @@ jobs:
           sed -i "s/.*COMPRESSZST=.*/COMPRESSZST=(zstd -c -z -q -10 -T0 -)/" /etc/makepkg.conf
           sed -i "s/.*PACKAGER=.*/PACKAGER='Dakkshesh <dakkshesh5@gmail.com>'/" /etc/makepkg.conf
           sed -i "s/.*GPGKEY=.*/GPGKEY='69FE650875EC4CD630C36FA212E5D2B4F137262E'/" /etc/makepkg.conf
-
       - name: Delete existing database
         run: |
           cd $(pwd)/x86_64
@@ -48,7 +42,6 @@ jobs:
           rm -rf aether.files*.sig
           rm -rf aether.files.tar.zst
           cd ..
-
       - name: Generate new database
         run: |
           cd $(pwd)/x86_64
