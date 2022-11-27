@@ -5,3 +5,12 @@ acpica-20221020-1-x86_64.pkg.tar.zst
 [aliyun-cli]
 aliyun-cli-3.0.137-1-x86_64.pkg.tar.zst
 
+[apache-orc]
+apache-orc-1.8.0-1-x86_64.pkg.tar.zst
+
+[arduino-avr-core]
+arduino-avr-core-1.8.6-1-any.pkg.tar.zst
+
+[arduino-cli]
+arduino-cli-0.29.0-1-x86_64.pkg.tar.zst
+
