@@ -61,3 +61,6 @@ jobs:
           cp aether.files.tar.zst aether.files
           cp aether.files.tar.zst.sig aether.files.sig
           cp aether.db.tar.zst.sig aether.db.sig
+          git add -A
+          git commit -asm "[skip ci] Generate datebase as of $(date '+%Y-%m-%d')"
+          git push https://"${GITHUB_USERNAME}":"${GHUB_TOKEN}"@github.com/AetherLinux/packages.git
