@@ -5,9 +5,11 @@ on:
       - main
     paths:
       - 'x86_64/**'
+      - 'pkglist'
   pull_request:
     paths:
       - 'x86_64/**'
+      - 'pkglist'
   workflow_dispatch:
 env:
   GITHUB_USERNAME: Dakkshesh
