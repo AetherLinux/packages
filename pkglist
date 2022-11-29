@@ -17,3 +17,6 @@ arduino-cli-0.29.0-2-x86_64.pkg.tar.zst
 [audit]
 audit-3.0.9-1-x86_64.pkg.tar.zst
 
+[sccache]
+sccache-0.3.1-1-x86_64.pkg.tar.zst
+
