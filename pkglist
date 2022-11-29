@@ -26,3 +26,6 @@ arrow-10.0.1-1-x86_64.pkg.tar.zst
 [make]
 make-4.4-1-x86_64.pkg.tar.zst
 
+[mesa]
+vulkan-mesa-layers-22.2.4-1-x86_64.pkg.tar.zst
+
