@@ -29,3 +29,6 @@ make-4.4-1-x86_64.pkg.tar.zst
 [mesa]
 vulkan-mesa-layers-22.2.4-1-x86_64.pkg.tar.zst
 
+[autopep8]
+autopep8-2.0.0-1-any.pkg.tar.zst
+
