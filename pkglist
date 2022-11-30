@@ -1,9 +1,8 @@
-
 acpica=(acpica-20221020-2-x86_64.pkg.tar.zst acpica-20221020-2-x86_64.pkg.tar.zst.sig)
-aliyun-cli=(aliyun-cli-3.0.137-2-x86_64.pkg.tar.zst aliyun-cli-3.0.137-2-x86_64.pkg.tar.zst.sig)
-apache-orc=(apache-orc-1.8.0-1-x86_64.pkg.tar.zst apache-orc-1.8.0-1-x86_64.pkg.tar.zst.sig)
-arduino-avr-core=(arduino-avr-core-1.8.6-1-any.pkg.tar.zst arduino-avr-core-1.8.6-1-any.pkg.tar.zst.sig)
-arduino-cli=(arduino-cli-0.29.0-2-x86_64.pkg.tar.zst arduino-cli-0.29.0-2-x86_64.pkg.tar.zst.sig)
+aliyun_cli=(aliyun-cli-3.0.137-2-x86_64.pkg.tar.zst aliyun-cli-3.0.137-2-x86_64.pkg.tar.zst.sig)
+apache_orc=(apache-orc-1.8.0-1-x86_64.pkg.tar.zst apache-orc-1.8.0-1-x86_64.pkg.tar.zst.sig)
+arduino_avr_core=(arduino-avr-core-1.8.6-1-any.pkg.tar.zst arduino-avr-core-1.8.6-1-any.pkg.tar.zst.sig)
+arduino_cli=(arduino-cli-0.29.0-2-x86_64.pkg.tar.zst arduino-cli-0.29.0-2-x86_64.pkg.tar.zst.sig)
 audit=(audit-3.0.9-1-x86_64.pkg.tar.zst audit-3.0.9-1-x86_64.pkg.tar.zst.sig audit-debug-3.0.9-1-x86_64.pkg.tar.zst audit-debug-3.0.9-1-x86_64.pkg.tar.zst.sig)
 sccache=(sccache-0.3.1-1-x86_64.pkg.tar.zst sccache-0.3.1-1-x86_64.pkg.tar.zst.sig)
 arrow=(arrow-10.0.1-1-x86_64.pkg.tar.zst arrow-10.0.1-1-x86_64.pkg.tar.zst.sig)
